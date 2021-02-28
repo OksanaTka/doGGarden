@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/main_IMG_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_ruls_background" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/rules_CV_rule6"
+        android:layout_marginBottom="-260dp"
+        android:alpha="0.9"
+        android:background="#E1F5FE" />
+
+    <TextView
+        android:id="@+id/rules_LBL_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/amiko"
+        android:gravity="center"
+        android:text="PARK RULES"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/rules_CV_rule1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rules_LBL_title"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:backgroundTint="@android:color/transparent"
+        android:outlineProvider="bounds"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_dog_leash" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/amiko"
+            android:gravity="center"
+            android:text="All dogs must be leashed \nwhen entering \nand exiting the park."
+            android:textColor="@color/black" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/rules_CV_rule2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rules_CV_rule1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:backgroundTint="@android:color/transparent"
+        android:outlineProvider="bounds"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_dog" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/amiko"
+            android:gravity="center"
+            android:text="No enter between:\n14:00 - 16:00\n23:00 - 06:00"
+            android:textColor="@color/black" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/rules_CV_rule3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rules_CV_rule2"
+        android:layout_centerHorizontal="true"
+
+        android:layout_margin="5dp"
+
+        android:backgroundTint="@android:color/transparent"
+        android:outlineProvider="bounds"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+
+            android:fontFamily="@font/amiko"
+            android:gravity="center"
+            android:text="Aggressive behavior is not allowed."
+
+            android:textColor="@color/black" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/rules_CV_rule4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rules_CV_rule3"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+
+        android:backgroundTint="@android:color/transparent"
+        android:outlineProvider="bounds"
+        app:cardCornerRadius="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/amiko"
+            android:gravity="center"
+            android:text="Owner must clean up dog waste \nIMMEDIATLY."
+            android:textColor="@color/black" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/rules_CV_rule5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rules_CV_rule4"
+        android:layout_centerHorizontal="true"
+
+        android:layout_margin="5dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@android:color/transparent"
+        android:outlineProvider="bounds"
+
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+
+            android:layout_margin="10dp"
+            android:fontFamily="@font/amiko"
+            android:gravity="center"
+            android:text="Owners must remain in the park \nwith their dogs at all time."
+            android:textColor="@color/black" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/rules_CV_rule6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rules_CV_rule5"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:backgroundTint="@android:color/transparent"
+        android:outlineProvider="bounds"
+
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_vaccine" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/amiko"
+            android:gravity="center"
+            android:text="All dogs must have \ncurrent vaccines."
+            android:textColor="@color/black" />
+    </androidx.cardview.widget.CardView>
+
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="55dp"-->
+    <!--        android:layout_gravity="bottom"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:gravity="center">-->
+
+    <!--        <ImageButton-->
+    <!--            android:id="@+id/rules_NBTN_rules"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:backgroundTint="#03DAC6"-->
+    <!--            android:background="#03DAC6"-->
+    <!--            android:cropToPadding="false"-->
+    <!--            android:src="@drawable/ic_rules" />-->
+
+
+    <!--        <ImageButton-->
+    <!--            android:id="@+id/rules_NBTN_map"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:backgroundTint="#03DAC6"-->
+    <!--            android:background="#03DAC6"-->
+    <!--            android:src="@drawable/ic_map" />-->
+
+    <!--        <ImageButton-->
+    <!--            android:id="@+id/rules_NBTN_park"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:backgroundTint="#03DAC6"-->
+    <!--            android:background="#03DAC6"-->
+    <!--            android:src="@drawable/ic_dog_park" />-->
+
+    <!--    </LinearLayout>-->
+</RelativeLayout>

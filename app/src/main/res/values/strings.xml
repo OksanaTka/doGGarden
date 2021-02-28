@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">doGGarden</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="ok_">Ok</string>
+    <string name="continue_">Continue</string>
+    <string name="login">Login</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="title_activity__map">Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+
+    <string name="park_1_address" translatable="false">HaMetsiltayim 1,Rishon LeZion</string>
+    <string name="park_1_name" translatable="false">Neot Ashalim</string>
+
+    <string name="park_2_address" translatable="false">Beach ,Rishon LeZion</string>
+    <string name="park_2_name" translatable="false">Beach Park</string>
+
+    <string name="park_3_address" translatable="false">HaRav Haim David HaLevi 2, Rishon LeZion</string>
+    <string name="park_3_name" translatable="false">Dream Rishon</string>
+
+    <string name="park_4_address" translatable="false">Yona Bugla 18, Rishon LeZion</string>
+    <string name="park_4_name" translatable="false">Kalanit</string>
+
+    <string name="park_5_address" translatable="false">Paula Ben Gurion 33, Rishon LeZion</string>
+    <string name="park_5_name" translatable="false">Katzenelson Park</string>
+
+    <string name="park_6_address" translatable="false">Hasidei Umot HaOlam 15, Rishon LeZion</string>
+    <string name="park_6_name" translatable="false">HaZikaron Park</string>
+
+    <string name="park_7_address" translatable="false">Zamenhoff 3, Rishon LeZion</string>
+    <string name="park_7_name" translatable="false">Park Neot Shikma</string>
+
+    <string name="park_9_address" translatable="false">HaHalutsim 90, Rishon LeZion</string>
+    <string name="park_9_name" translatable="false">Ha-Zeitim Grove Park</string>
+
+    <string name="park_10_address" translatable="false">Shprintzak 17, Rishon LeZion</string>
+    <string name="park_10_name" translatable="false">Shprintzak Park</string>
+
+    <string name="park_11_address" translatable="false">Shaar Hamelech 4,Rishon LeZion </string>
+    <string name="park_11_name" translatable="false">Neve Hof</string>
+
+
+
+</resources>

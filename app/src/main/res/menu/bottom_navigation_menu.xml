@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_ITEM_rules"
+        android:enabled="true"
+        android:icon="@drawable/ic_rules"
+        android:title="RULES"/>
+    <item
+        android:id="@+id/navigation_ITEM_map"
+        android:enabled="true"
+
+        android:icon="@drawable/ic_map"
+        android:title="MAP"/>
+
+    <item
+        android:id="@+id/navigation_ITEM_park"
+        android:enabled="true"
+        android:icon="@drawable/ic_dog_park"
+        android:title="MY PARK"/>
+</menu>

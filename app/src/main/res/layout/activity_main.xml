@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_RLT_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".activities.Activity_Main">
+
+
+    <FrameLayout
+        android:id="@+id/main_LAY_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <ImageButton
+        android:id="@+id/main_IBTN_log_out"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_log_out" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Choose a park"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:shadowColor="@color/black"
+        android:shadowRadius="10"
+        android:fontFamily="@font/gloria_hallelujah"/>
+
+    <ImageButton
+        android:id="@+id/main_IBTN_profile"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_edit_profile" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_MBTN_my_park"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="20dp"
+        android:text="my park"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/blue"
+        app:cornerRadius="10dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_MBTN_rules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="20dp"
+        android:text="rules"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/blue"
+        app:cornerRadius="10dp" />
+</RelativeLayout>

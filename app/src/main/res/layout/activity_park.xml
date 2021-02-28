@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".activities.Activity_Park">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/park_MBTN_favorite"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_star_empty" />
+
+        <TextView
+            android:id="@+id/park_LBL_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/gloria_hallelujah"
+            android:text="Park"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/park_IBTN_chat"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_chat" />
+
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/park_LAY_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/park_LBL_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@+id/park_IMV_marker"
+                android:fontFamily="@font/amiko"
+                android:text="MAP: "
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/park_LBL_status_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@+id/park_LBL_address"
+                android:fontFamily="@font/amiko"
+                android:text="N/A"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/park_BTN_navigation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/ic_navigate"
+                android:text="NAVIGATE"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/park_LBL_features"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/park_LBL_address"
+                android:fontFamily="@font/gloria_hallelujah"
+
+                android:text="Features:"
+                android:textColor="@color/blue"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/park_LBL_shade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/park_LBL_features"
+                android:drawableLeft="@drawable/ic_black_circle"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/amiko"
+                android:text="Shade"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/park_LBL_status_shade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/park_LBL_features"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/park_LBL_shade"
+
+                android:fontFamily="@font/amiko"
+                android:text="N/A"
+                android:textColor="@color/red"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/park_LBL_benches"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/park_LBL_shade"
+                android:drawableLeft="@drawable/ic_black_circle"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/amiko"
+                android:text="Benches "
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/park_LBL_status_benches"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/park_LBL_shade"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/park_LBL_benches"
+
+                android:fontFamily="@font/amiko"
+                android:text="N/A"
+                android:textColor="@color/red"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/park_LBL_lights"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/park_LBL_benches"
+                android:drawableLeft="@drawable/ic_black_circle"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/amiko"
+                android:text="Lights"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/park_LBL_status_lights"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/park_LBL_benches"
+                android:layout_marginLeft="10dp"
+
+                android:layout_toRightOf="@+id/park_LBL_lights"
+                android:fontFamily="@font/amiko"
+                android:text="N/A"
+                android:textColor="@color/red"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/park_LBL_water"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/park_LBL_lights"
+                android:drawableLeft="@drawable/ic_black_circle"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/amiko"
+                android:text="Water"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/park_LBL_status_water"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/park_LBL_lights"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/park_LBL_water"
+                android:fontFamily="@font/amiko"
+                android:text="N/A"
+                android:textColor="@color/red"
+                android:textSize="18dp" />
+
+            <RatingBar
+                android:id="@+id/park_RB_rate"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/park_LBL_water"
+                android:layout_marginTop="10dp"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:progressTint="@color/yellow_rate"
+                android:secondaryProgressTint="@color/yellow_rate"
+                android:stepSize="1" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/park_MBTN_rate"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/park_RB_rate"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/park_RB_rate"
+                android:fontFamily="@font/gloria_hallelujah"
+                android:gravity="bottom"
+                android:text="Rate!"
+                android:textColor="@color/yellow_BTN_rate"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_RV_users"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="2"
+        android:background="@color/white"
+        tools:listitem="@layout/list_adapter" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/park_NBTN_rules"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:backgroundTint="@color/blue"
+            android:cropToPadding="false"
+            android:src="@drawable/ic_rules" />
+
+
+        <ImageButton
+            android:id="@+id/park_NBTN_map"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:backgroundTint="@color/blue"
+            android:src="@drawable/ic_map" />
+
+        <ImageButton
+            android:id="@+id/park_NBTN_park"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:backgroundTint="@color/blue"
+            android:src="@drawable/ic_dog_park" />
+
+
+    </LinearLayout>
+</LinearLayout>
