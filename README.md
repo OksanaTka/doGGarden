@@ -18,7 +18,7 @@
 
 | Park                     | Favorit Park            |      
 :-------------------------:|:-------------------------:
-![](images/Img_park.jpg)  | ![](images/img_favorite.jpg)
+![](images/img_park.jpg)  | ![](images/img_favorite.jpg)
 
 
 
