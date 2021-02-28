@@ -158,12 +158,19 @@ public class Activity_Main extends BaseActivity {
         main_IBTN_log_out.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                resetLocationDetails();
                 FirebaseAuth.getInstance().signOut();
                 openLoginActivity();
             }
         });
     }
 
+    private void resetLocationDetails(){
+        baseUser.setStatus("offline");
+        baseUser.setLastLat(0);
+        baseUser.setLastLng(0);
+        updateUserDatabase();
+    }
     private void openLoginActivity() {
         Intent myIntent = new Intent(Activity_Main.this, Activity_Login.class);
         startActivity(myIntent);
