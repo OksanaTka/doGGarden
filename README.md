@@ -48,7 +48,7 @@ In every park you can see more details of the park:
 <p float="left" align="middle" padding="5">
   <img src="/images/img_park.jpg?raw=true" width="250" />
   <img src="/images/img_favorite.jpg?raw=true" width="250" /> 
-   <img src="/images/img_profile.jpg?raw=true" width="250" /> 
+   <img src="/images/Img__profile.jpg?raw=true" width="250" /> 
 </p>
 
 ## Profile 
