@@ -18,7 +18,7 @@ In this page you can edit your profile , <br />
 go straight to your favorite park (by clicking MY PARK button),<br />
 read parks rules (valid for any park) and loguot.
 
-Select a park by clicking on the marker.
+Select a park by clicking on the marker.<br />
 The pop-up window shows the following details for each park:
 1. Name
 2. Rating
