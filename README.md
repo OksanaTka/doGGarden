@@ -1,6 +1,6 @@
 # doGGarden
 
-Application for finding dog parks and navigating to them.
+Application for finding dog parks and navigating to them.<br />
 Parks location - country: Israel, city :Rishon LeZion
 
 
@@ -14,8 +14,8 @@ Login with your phone number (start with +972)
 
 
 ## Map
-In this page you can edit your profile , 
-go straight to your favorite park (by clicking MY PARK button),
+In this page you can edit your profile , <br />
+go straight to your favorite park (by clicking MY PARK button),<br />
 read parks rules (valid for any park) and loguot.
 
 Select a park by clicking on the marker.
@@ -32,7 +32,7 @@ The pop-up window shows the following details for each park:
 </p>
 
 
-## Park: 
+## Park
 In every park you can see more details of the park:
 1. park full address
 2. navigate to the park
@@ -51,7 +51,7 @@ In every park you can see more details of the park:
    <img src="/images/img_profile.jpg?raw=true" width="250" /> 
 </p>
 
-# Profile 
+## Profile 
 Edit your profile and select an image
 
 <p float="left" align="middle" padding="5">
@@ -59,9 +59,9 @@ Edit your profile and select an image
 </p>
 
 
-# Chat and Park Rules 
-Every park has a chat.
-Anyone can enter the park and chat.
+## Chat and Park Rules 
+Every park has a chat.<br />
+Anyone can enter the park and chat.<br />
 Read park rules (valid for any park).
 
 <p float="left" align="middle" padding="5">
